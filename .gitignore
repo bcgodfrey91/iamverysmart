@@ -13,3 +13,15 @@ test/unit/coverage
 *.ntvs*
 *.njsproj
 *.sln
+
+
+# Project Specific
+.next/
+jest/
+*.report.html
+*-report.html
+
+# Logs
+logs
+*.log
+npm-debug.log*
