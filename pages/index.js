@@ -1,7 +1,9 @@
-const Index = () => (
-  <div>
-    <p>Hello Next.js</p>
-  </div>
-)
+import { Component } from 'react';
 
-export default Index
+export default class IndexPage extends Component {
+  render() {
+    return(
+      <p>Index</p>
+    )
+  }
+}
