@@ -1,14 +1,11 @@
 function Section({ children, styleClass }) {
   return (
     <section className={`section ${styleClass}`}>
+      {children}
       <style jsx>{`
         .section {
-          margin: 0 auto;
+          margin: 0 2.5vw;
           height: 100vh;
-        }
-
-        .hero-tile {
-          border: 3px solid black
         }
       `}</style>
     </section>
