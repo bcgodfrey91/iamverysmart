@@ -19,9 +19,17 @@
   },
   "homepage": "https://github.com/bcgodfrey91/iamverysmart#readme",
   "dependencies": {
+    "@zeit/next-css": "^0.1.5",
     "next": "^6.0.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^11.1.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "styled-jsx": "^2.2.6"
+  },
+  "devDependencies": {
+    "styled-jsx-plugin-postcss": "^0.1.3",
+    "styled-jsx-plugin-stylelint": "^0.1.0",
+    "styled-jsx-postcss": "^0.2.0"
   }
 }
