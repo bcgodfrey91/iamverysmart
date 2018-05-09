@@ -1,9 +1,7 @@
 :root {
-  --some-color: red;
+  --some-color: magenta;
   --some-size: 50px;
-}
-
-.example {
-  color: var(--some-color);
-  font-size: var(--some-size)
+  --some-background: black;
+  --some-border: 10px solid yellow;
+  --some-radius: 10px;
 }

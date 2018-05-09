@@ -1,6 +1,11 @@
 module.exports = {
-  plugins: {
-    'postcss-cssnext': {},
-    'postcss-import': {}
-  }
-}
+  plugins: [
+    require("postcss-easy-import")({ prefix: "_" }), // keep this first
+    require("postcss-import")({}),
+    require("postcss-cssnext")({
+      features: {
+        autoprefixer: false,
+      }
+    }),
+  ]
+};
