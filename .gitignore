@@ -16,10 +16,9 @@ test/unit/coverage
 
 
 # Project Specific
-.next/
-jest/
 *.report.html
 *-report.html
+*.cache
 
 # Logs
 logs

@@ -1,33 +1,5 @@
 {
   "presets": [
-    [
-      "next/babel",
-      {
-        "styled-jsx": {
-          "plugins": [
-            "styled-jsx-plugin-postcss",
-            "styled-jsx-plugin-stylelint"
-          ]
-        }
-      }
-    ]
-  ],
-  "plugins": [
-    [
-      "wrap-in-js",
-      {
-        "extensions": [
-          "css$"
-        ]
-      }
-    ],
-    [
-      "babel-plugin-inline-import",
-      {
-        "extensions": [
-          ".jsx"
-        ]
-      }
-    ]
+    "env"
   ]
 }
