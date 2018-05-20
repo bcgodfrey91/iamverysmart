@@ -1,12 +1,14 @@
 <template>
-  <div id="Home">
-    <h1>{{ msg }}</h1>
-  </div>
+  <hero></hero>
 </template>
 
 <script>
+import Hero from './Hero.vue';
 export default {
   name: 'Home',
+  components: {
+    'hero': Hero,
+  },
   data () {
     return {
       msg: 'Welcome to Your Vue.js app!'
@@ -16,7 +18,4 @@ export default {
 </script>
 
 <style lang="css">
-  #Home {
-    color: purple;
-  }
 </style>
