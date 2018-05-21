@@ -1,22 +1,23 @@
 <template>
   <app-section :styleClass="{ styleClass }">
-    <h1>{{ msg }}</h1>
+    <card-list></card-list>
   </app-section>
 </template>
 
 <script>
 import Section from './Section.vue';
+import CardList from './CardList.vue';
 export default {
   name: 'Projects',
   components: {
     'app-section': Section,
+    'card-list': CardList,
   },
   data () {
     return {
-      msg: 'This is the Projects Tile',
       styleClass: 'projects-tile'
     }
-  }
+  },
 }
 </script>
 

@@ -26,6 +26,10 @@ export default {
   mounted () {
     this.script = p => {
       let img;
+      // p.preload = _ => {
+      //   img = p.loadImage('');
+      // }
+
       p.setup = _ => {
         this.canvas = p.createCanvas(600, 420)
         this.canvas.parent(this.$refs.canvas)
@@ -42,6 +46,7 @@ export default {
     }
     const P5 = require('p5')
     this.ps = new P5(this.script)
+    console.log(this.ps)
   }
 }
 </script>
