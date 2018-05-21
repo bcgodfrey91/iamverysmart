@@ -15,9 +15,6 @@ export default {
       sectionStyle: this.styleClass.styleClass
     }
   },
-  mounted () {
-    console.log(this.styleClass.styleClass);
-  }
 }
 </script>
 
@@ -26,12 +23,24 @@ export default {
     height: 95vh;
     margin: 0 2.5vw;
     border: 2px solid black;
-  }
-
-  .hero-tile {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .hero-tile {
     color: magenta;
+  }
+
+  .timeline-tile {
+    color: lime;
+  }
+
+  .projects-tile {
+    color: blue;
+  }
+
+  .contact-tile {
+    color: gold;
   }
 </style>

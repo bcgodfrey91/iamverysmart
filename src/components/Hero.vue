@@ -1,6 +1,6 @@
 <template>
   <app-section :styleClass="{ styleClass }">
-    <h1>{{ msg }}</h1>
+    <div ref="canvas"></div>
   </app-section>
 </template>
 
@@ -13,9 +13,35 @@ export default {
   },
   data () {
     return {
-      msg: 'This is the Hero Tile',
-      styleClass: 'hero-tile'
+      styleClass: 'hero-tile',
+      script: null,
+      ps: null,
+      x: 0,
+      y: 0,
+      canvas: null,
+      colors: null,
+      colors2: null
     }
+  },
+  mounted () {
+    this.script = p => {
+      let img;
+      p.setup = _ => {
+        this.canvas = p.createCanvas(600, 420)
+        this.canvas.parent(this.$refs.canvas)
+        p.noStroke()
+        p.background(253,252,255)
+      }
+
+      p.draw = _ => {
+        this.x = p.floor(p.random(0, 600));
+        this.y = p.floor(p.random(0, 420));
+        p.fill(p.floor(p.random(0, 255)), p.floor(p.random(0, 255)), p.floor(p.random(0, 255)))
+        p.ellipse(this.x, this.y, 5, 5)
+      }
+    }
+    const P5 = require('p5')
+    this.ps = new P5(this.script)
   }
 }
 </script>

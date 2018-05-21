@@ -16,6 +16,8 @@ export default {
 
 <style lang="css">
   body {
+    background-color: #FDFCFF;
+    color: #000F1C;
     margin: 0;
   }
 </style>
