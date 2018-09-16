@@ -25,7 +25,11 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js app!'
     }
-  }
+  },
+  methods: {
+  },
+  mounted () {
+  },
 }
 </script>
 

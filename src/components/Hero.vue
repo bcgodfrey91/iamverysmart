@@ -26,9 +26,9 @@ export default {
   mounted () {
     this.script = p => {
       let img;
-      // p.preload = _ => {
-      //   img = p.loadImage('');
-      // }
+      p.preload = _ => {
+        img = p.loadImage('');
+      }
 
       p.setup = _ => {
         this.canvas = p.createCanvas(600, 420)
