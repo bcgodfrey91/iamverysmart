@@ -19,8 +19,9 @@
   },
   "homepage": "https://github.com/bcgodfrey91/iamverysmart#readme",
   "dependencies": {
-    "p5": "^0.6.1",
-    "vue": "^2.5.16"
+    "p5": "^0.7.2",
+    "vue": "^2.5.16",
+    "vue-p5": "^0.7.1"
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^1.2.1",
