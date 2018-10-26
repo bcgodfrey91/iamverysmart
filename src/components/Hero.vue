@@ -11,7 +11,6 @@
 
 <script>
 import Section from './Section.vue';
-import sketch from '../helpers/sketch.js';
 import VueP5 from 'vue-p5';
 
 export default {
@@ -28,16 +27,16 @@ export default {
   },
   methods: {
     preload(sketch) {
-      this.img = sketch.loadImage('https://media.licdn.com/dms/image/C4E03AQEIB7WNcY3TqQ/profile-displayphoto-shrink_200_200/0?e=1542844800&v=beta&t=3fqEWww9Vxr5jCa4bpGQjiLrBWgcmxhgJKr1mfwhoPM');
+      this.img = sketch.loadImage('https://i.imgur.com/woXkXH3.jpg');
     },
     setup(sketch) {
-      sketch.createCanvas(this.img.height, this.img.width);
+      sketch.createCanvas(this.img.width, this.img.height);
       sketch.noStroke();
       sketch.frameRate(60);
     },
     draw(sketch) {
-      const x = sketch.floor(sketch.random(this.img.height));
-      const y = sketch.floor(sketch.random(this.img.width));
+      const x = sketch.floor(sketch.random(this.img.width));
+      const y = sketch.floor(sketch.random(this.img.height));
       const pix = this.img.get(x, y);
       sketch.fill(pix, 128);
       sketch.ellipse(x, y, 10, 10);
