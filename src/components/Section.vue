@@ -20,16 +20,16 @@ export default {
 
 <style lang="css">
   .section {
-    height: 95vh;
-    margin: 0 2.5vw;
-    border: 2px solid black;
+    min-height: 80vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .hero-tile {
-    color: magenta;
+    align-items: flex-end;
+    background: #fdfff7;
   }
 
   .timeline-tile {

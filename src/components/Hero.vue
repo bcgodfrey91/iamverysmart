@@ -48,9 +48,5 @@ export default {
 </script>
 
 <style lang="css">
-  #sketch {
-    width: 50%;
-    height: 50%;
-    border: 1px solid black;
-  }
+
 </style>

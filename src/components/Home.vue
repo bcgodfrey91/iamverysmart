@@ -2,8 +2,6 @@
   <div>
     <hero></hero>
     <timeline></timeline>
-    <projects></projects>
-    <contact></contact>
   </div>
 </template>
 
