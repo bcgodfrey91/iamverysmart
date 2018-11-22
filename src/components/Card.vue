@@ -24,9 +24,9 @@ export default {
 
 <style lang="css">
   .card-content {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 </style>

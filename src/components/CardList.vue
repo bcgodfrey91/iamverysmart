@@ -33,18 +33,17 @@ export default {
   .card-list {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    max-width: 80rem;
     flex-wrap: wrap;
-    width: 100%;
+    justify-content: center;
     margin: 1rem 0;
+    max-width: 80rem;
+    width: 100%;
   }
 
   .card {
+    background: magenta;
     height: 17.5rem;
     margin: 0.5rem;
     width: 25rem;
-    border: 2px solid black;
-    background: magenta;
   }
 </style>

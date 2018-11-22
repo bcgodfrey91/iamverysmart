@@ -20,11 +20,11 @@ export default {
 
 <style lang="css">
   .section {
-    min-height: 80vh;
-    width: 100%;
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
+    min-height: 80vh;
+    width: 100%;
   }
 
   .hero-tile {
