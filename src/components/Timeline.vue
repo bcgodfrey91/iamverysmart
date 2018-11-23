@@ -1,6 +1,6 @@
 <template>
   <app-section :styleClass="{ styleClass }">
-    <h1>Say What's Up</h1>
+    <h1>{{msg}}</h1>
   </app-section>
 </template>
 
