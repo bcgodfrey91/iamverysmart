@@ -1,6 +1,8 @@
 <template>
   <section class="section" :class="sectionStyle">
-    <slot>This is a section</slot>
+    <div class="section-wrapper">
+      <slot>This is a section</slot>
+    </div>
   </section>
 </template>
 
@@ -27,20 +29,21 @@ export default {
     width: 100%;
   }
 
-  .hero-tile {
-    align-items: flex-end;
-    background: #fdfff7;
+  .section-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    margin: 0 2.5vw;
+    width: 100%;
   }
 
-  .timeline-tile {
-    color: lime;
+  .timeline-tile,
+  .contact-tile  {
+    background: #2B303A;
   }
 
   .projects-tile {
-    color: blue;
-  }
-
-  .contact-tile {
-    color: gold;
   }
 </style>

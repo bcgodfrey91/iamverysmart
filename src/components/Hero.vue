@@ -1,11 +1,11 @@
 <template>
   <app-section :styleClass="{ styleClass }">
-    <vue-p5
+    <!-- <vue-p5
       @preload="preload"
       @setup="setup"
       @draw="draw"
     >
-    </vue-p5>
+    </vue-p5> -->
   </app-section>
 </template>
 

@@ -31,19 +31,13 @@ export default {
 
 <style lang="css">
   .card-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 1rem 0;
-    max-width: 80rem;
     width: 100%;
   }
 
   .card {
     background: magenta;
-    height: 17.5rem;
-    margin: 0.5rem;
-    width: 25rem;
+    border-radius: 0.25rem;
+    height: 10.9375rem;
+    margin: 1rem 0;
   }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="card-content">
-    <h1>{{ title }}</h1>
+    <p>{{ title }}</p>
     <p>{{ body }}</p>
     <div>{{ link }}</div>
   </div>
@@ -27,6 +27,7 @@ export default {
     align-items: center;
     display: flex;
     flex-direction: column;
+    height: 100%;
     justify-content: center;
   }
 </style>
