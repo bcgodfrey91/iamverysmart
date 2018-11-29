@@ -65,7 +65,7 @@ export default {
   }
 
   .email-text {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .contact-tile .section-title {
