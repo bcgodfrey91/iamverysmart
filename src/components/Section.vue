@@ -44,7 +44,20 @@ export default {
   }
 
   .contact-tile {
+    display: flex;
+    justify-content: center;
     min-height: 35vh;
+  }
+
+  .contact-tile .section-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    max-width: 23rem;
+    min-height: 35vh;
+    text-align: center;
   }
 
   .hero-tile,

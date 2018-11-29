@@ -1,6 +1,6 @@
 <template>
   <app-section :styleClass="{ styleClass }">
-    <h1>About</h1>
+    <h1 class="section-title">About</h1>
     <div>I continuously strive to write code that is responsive, reusable, and accessible.</div>
     <div class="about-icon-container">
       <div class="icon-content">

@@ -19,4 +19,9 @@ export default {
     background-color: #fdfcff;
     margin: 0;
   }
+
+  .section-title {
+    font-size: 3rem;
+    margin: 1rem 0;
+  }
 </style>

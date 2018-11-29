@@ -1,6 +1,6 @@
 <template>
   <app-section :styleClass="{ styleClass }">
-    <h1>Drop Me a Line</h1>
+    <h1 class="section-title">Drop Me a Line</h1>
     <div>Looking to work together on a project, hire a new team member, or simply make a new connection? Don't hesitate to reach out!</div>
     <div class="contact-icon-container">
       <a class="icon-link" href="https://github.com/bcgodfrey91" target="_blank">
@@ -28,7 +28,7 @@
         </svg>
       </a>
     </div>
-    <div>bcgodfrey91@gmail.com</div>
+    <div class="email-text">bcgodfrey91@gmail.com</div>
   </app-section>
 </template>
 
@@ -62,5 +62,13 @@ export default {
   .icon:hover {
     fill: #a044ff;
     cursor: pointer;
+  }
+
+  .email-text {
+    margin-bottom: 1rem;
+  }
+
+  .contact-tile .section-title {
+    margin: 1rem 0 0;
   }
 </style>
