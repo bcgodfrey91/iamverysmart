@@ -1,5 +1,6 @@
 <template>
   <app-section :styleClass="{ styleClass }">
+    <h1>Ben Godfrey</h1>
     <!-- <vue-p5
       @preload="preload"
       @setup="setup"

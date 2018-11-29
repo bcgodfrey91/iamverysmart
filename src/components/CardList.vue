@@ -90,9 +90,9 @@ export default {
   }
 
   .eac {
-    background: #D10000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(140deg, #D10000, #F56416);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(140deg, #D10000, #F56416); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #d10000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(140deg, #d10000, #f56416);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(140deg, #d10000, #f56416); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
   @media screen and (min-width: 48rem) {

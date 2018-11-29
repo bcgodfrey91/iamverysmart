@@ -1,6 +1,21 @@
 <template>
   <app-section :styleClass="{ styleClass }">
-    <h1>{{msg}}</h1>
+    <h1>About</h1>
+    <div>I continuously strive to write code that is responsive, reusable, and accessible.</div>
+    <div class="about-icon-container">
+      <div class="icon-content">
+        <img class="icon" src=""/>
+        <div>Placeholder Text</div>
+      </div>
+      <div class="icon-content">
+        <img class="icon" src=""/>
+        <div>Placeholder Text</div>
+      </div>
+      <div class="icon-content">
+        <img class="icon" src=""/>
+        <div>Placeholder Text</div>
+      </div>
+    </div>
   </app-section>
 </template>
 
@@ -13,7 +28,6 @@ export default {
   },
   data () {
     return {
-      msg: 'This is the Timeline Tile',
       styleClass: 'timeline-tile'
     }
   }
@@ -21,4 +35,11 @@ export default {
 </script>
 
 <style lang="css">
+.about-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60vw;
+}
+
 </style>

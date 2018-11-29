@@ -22,9 +22,7 @@ export default {
 
 <style lang="css">
   .section {
-    align-items: center;
     display: flex;
-    justify-content: center;
     min-height: 80vh;
     width: 100%;
   }
@@ -42,8 +40,19 @@ export default {
   .timeline-tile,
   .contact-tile  {
     background: #2B303A;
+    color: #fdfcff;
+  }
+
+  .contact-tile {
+    min-height: 35vh;
+  }
+
+  .hero-tile,
+  .projects-tile {
+    color: #2B303A;
   }
 
   .projects-tile {
+    margin: 1rem 0;
   }
 </style>

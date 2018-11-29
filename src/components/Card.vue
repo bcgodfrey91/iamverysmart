@@ -53,4 +53,10 @@ export default {
     font-size: 0.875rem;
     padding: 0.25rem 0.75rem;
   }
+
+  @media screen and (min-width: 48rem) {
+    .card-content {
+      min-height: 15rem;
+    }
+  }
 </style>
