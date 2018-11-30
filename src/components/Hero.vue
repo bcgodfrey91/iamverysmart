@@ -1,12 +1,14 @@
 <template>
   <app-section :styleClass="{ styleClass }">
-    <h1>Ben Godfrey</h1>
-    <!-- <vue-p5
-      @preload="preload"
-      @setup="setup"
-      @draw="draw"
-    >
-    </vue-p5> -->
+    <h1 class="section-title hero-title">Ben Godfrey</h1>
+    <div class="p5-wrapper">
+      <vue-p5
+        @preload="preload"
+        @setup="setup"
+        @draw="draw"
+      >
+    </vue-p5>
+    </div>
   </app-section>
 </template>
 
@@ -28,12 +30,13 @@ export default {
   },
   methods: {
     preload(sketch) {
-      this.img = sketch.loadImage('https://i.imgur.com/woXkXH3.jpg');
+      this.img = sketch.loadImage('https://i.imgur.com/eMzwIsi.png');
     },
     setup(sketch) {
       sketch.createCanvas(this.img.width, this.img.height);
       sketch.noStroke();
       sketch.frameRate(60);
+      this.img.loadPixels();
     },
     draw(sketch) {
       const x = sketch.floor(sketch.random(this.img.width));
@@ -43,11 +46,19 @@ export default {
       sketch.ellipse(x, y, 10, 10);
     },
   },
-  mounted () {
-  }
 }
 </script>
 
 <style lang="css">
+  .hero-title {
+    font-size: 6rem;
+  }
 
+  .p5-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: -0.25rem 0;
+    overflow: hidden;
+    width: 100%;
+  }
 </style>

@@ -65,6 +65,11 @@ export default {
     color: #2B303A;
   }
 
+  .hero-tile .section-wrapper {
+    margin: 0;
+  }
+
+
   .projects-tile {
     margin: 1rem 0;
   }
