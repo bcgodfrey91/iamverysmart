@@ -33,7 +33,7 @@ export default {
     flex-direction: column;
     height: 100%;
     justify-content: center;
-    margin: 0 2.5vw;
+    margin: 2rem 2.5vw 0;
     width: 100%;
   }
 
@@ -55,9 +55,14 @@ export default {
     flex-direction: column;
     height: 100%;
     justify-content: space-between;
+    margin: 1rem 2.5vw;
     max-width: 23rem;
     min-height: 35vh;
     text-align: center;
+  }
+
+  .projects-tile .section-wrapper {
+    margin: 2rem 2.5vw;
   }
 
   .hero-tile,
@@ -69,8 +74,14 @@ export default {
     margin: 0;
   }
 
+  @media screen and (min-width: 48rem) {
+    .section-wrapper {
+      margin: 3rem 2.5vw 0;
+    }
 
-  .projects-tile {
-    margin: 1rem 0;
+    .projects-tile .section-wrapper {
+      margin: 3rem 2.5vw;
+    }
+
   }
 </style>

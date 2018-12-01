@@ -30,7 +30,7 @@ export default [
   {
     body: 'A logic game with the objective of turning off all of the lights.',
     styleClass: 'lights-out',
-    technologies: 'jQuery, Mocha/Chai, Object Oriented Programming',
+    technologies: 'jQuery, Mocha, Chai, Object Oriented Programming',
     title: 'Lights Out',
     url: 'https://github.com/bcgodfrey91/game-time-lights-out'
   },

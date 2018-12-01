@@ -1,6 +1,9 @@
 <template>
   <app-section :styleClass="{ styleClass }">
-    <h1 class="section-title hero-title">Ben Godfrey</h1>
+    <div class="section-title-wrapper">
+      <h1 class="section-title hero-title">Ben Godfrey</h1>
+      <div class="title-underline"></div>
+    </div>
     <div class="p5-wrapper">
       <vue-p5
         @preload="preload"
@@ -51,6 +54,7 @@ export default {
 
 <style lang="css">
   .hero-title {
+    margin: 1rem 0 2rem;
     font-size: 6rem;
   }
 

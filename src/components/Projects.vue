@@ -1,6 +1,9 @@
 <template>
   <app-section :styleClass="{ styleClass }">
-    <h1 class="section-title">Projects</h1>
+    <div class="section-title-wrapper">
+      <h1 class="section-title">Projects</h1>
+      <div class="title-underline"></div>
+    </div>
     <card-list></card-list>
   </app-section>
 </template>

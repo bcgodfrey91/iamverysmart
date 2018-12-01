@@ -17,11 +17,36 @@ export default {
 <style lang="css">
   body {
     background-color: #fdfcff;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
   }
 
-  .section-title {
-    font-size: 3rem;
-    margin: 1rem 0;
+  .section-title-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 2rem;
   }
+
+  .section-title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
+    margin: 0 0 0.5rem;
+  }
+
+  .title-underline {
+    height: 0.25rem;
+    width: 4.75rem;
+    background: #2B303A;
+  }
+
+  .hero-tile .title-underline {
+    display: none;
+  }
+
+  .timeline-tile .title-underline,
+  .contact-tile .title-underline {
+    background: #fdfcff;
+  }
+
 </style>

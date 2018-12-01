@@ -1,6 +1,9 @@
 <template>
   <app-section :styleClass="{ styleClass }">
-    <h1 class="section-title">Drop Me a Line</h1>
+    <div class="section-title-wrapper">
+      <h1 class="section-title">Drop Me a Line</h1>
+      <div class="title-underline"></div>
+    </div>
     <div>Looking to work together on a project, hire a new team member, or simply make a new connection? Don't hesitate to reach out!</div>
     <div class="contact-icon-container">
       <a class="icon-link" href="https://github.com/bcgodfrey91" target="_blank">
@@ -49,10 +52,21 @@ export default {
 </script>
 
 <style lang="css">
+  .contact-icon-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    width: 100%;
+  }
+
+  .icon-link {
+    display: inline-block;
+    margin: 0 0.5rem;
+  }
+
   .icon {
     fill: #fdfcff;
     height: 4rem;
-    margin: 0 0.5rem;
     transition: 200ms;
     transition-timing-function: ease-in-out;
     -webkit-transition: 200ms;

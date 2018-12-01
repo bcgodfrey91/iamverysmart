@@ -31,20 +31,32 @@ export default {
     flex-direction: column;
     height: 100%;
     justify-content: space-between;
-    margin: 0 1.5rem;
     min-height: 10.9375rem;
   }
 
   .card-content > div {
-    margin: 0.5rem 0;
+    margin: 0.5rem 1.5rem;
   }
 
   .card-content > div:first-child {
-    margin: 1rem 0 0.5rem;
+    margin: 1rem 1.5rem 0.5rem;
   }
 
   .card-content > div:last-child {
-    margin: 0.5rem 0 1rem;
+    margin: 0.5rem 1.5rem 1rem;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  .card-body {
+    font-size: 1.15rem;
+  }
+
+  .card-technologies {
+    font-size: 0.95rem;
   }
 
   .view-project {
