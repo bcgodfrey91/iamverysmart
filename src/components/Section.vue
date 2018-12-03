@@ -68,7 +68,7 @@ export default {
     flex-direction: column;
     height: 100%;
     justify-content: space-between;
-    margin: 1rem 2.5vw;
+    margin: 2rem 5vw 1rem;
     max-width: 23rem;
     min-height: 35vh;
     text-align: center;

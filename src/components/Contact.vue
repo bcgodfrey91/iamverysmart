@@ -85,8 +85,4 @@ export default {
   .email-text {
     margin-bottom: 2rem;
   }
-
-  .contact-tile .section-title {
-    margin: 1rem 0 0.25rem;
-  }
 </style>
