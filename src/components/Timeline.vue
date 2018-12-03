@@ -8,25 +8,25 @@
     <div>While my primary focus is on all things front end, I enjoy dabbling on the backend as well. <br class="text-break"> I'm constantly chasing the excitement and frustration that comes with tackling new ideas and problems.</div>
     <div class="about-icon-container">
       <div class="icon-content">
-        <svg class="about-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <svg class="about-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
           <title>School</title>
-          <path d="M12 3l11.016 6v8.016h-2.016v-6.938l-9 4.922-11.016-6zM5.016 13.172l6.984 3.844 6.984-3.844v4.031l-6.984 3.797-6.984-3.797v-4.031z"></path>
+          <path d="M40 10l36.719 20v26.719h-6.719v-23.125l-30 16.406-36.719-20zM16.719 43.906l23.281 12.813 23.281-12.813v13.438l-23.281 12.656-23.281-12.656v-13.438z"></path>
         </svg>
         <h2>School</h2>
         <div>After majoring in psychology at Texas A&M, I appreciate that I'm still able to provide meaningful solutions to people's problems in my career as a software developer.</div>
       </div>
       <div class="icon-content">
-        <svg class="about-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <svg class="about-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
           <title>Work</title>
-          <path d="M14.016 6v-2.016h-4.031v2.016h4.031zM20.016 6c1.125 0 1.969 0.891 1.969 2.016v10.969c0 1.125-0.844 2.016-1.969 2.016h-16.031c-1.125 0-1.969-0.891-1.969-2.016v-10.969c0-1.125 0.844-2.016 1.969-2.016h4.031v-2.016c0-1.125 0.844-1.969 1.969-1.969h4.031c1.125 0 1.969 0.844 1.969 1.969v2.016h4.031z"></path>
+          <path d="M46.719 20v-6.719h-13.438v6.719h13.438zM66.719 20c3.75 0 6.563 2.969 6.563 6.719v36.563c0 3.75-2.813 6.719-6.563 6.719h-53.438c-3.75 0-6.563-2.969-6.563-6.719v-36.563c0-3.75 2.813-6.719 6.563-6.719h13.438v-6.719c0-3.75 2.813-6.563 6.563-6.563h13.438c3.75 0 6.563 2.813 6.563 6.563v6.719h13.438z"></path>
         </svg>
         <h2>Work</h2>
         <div>In the workplace I serve in a number of roles ranging from developer to Scrum Master. I enjoy the challenge and responsibility that comes with wearing multiple hats.</div>
       </div>
       <div class="icon-content">
-        <svg class="about-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <svg class="about-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
           <title>Code</title>
-          <path d="M14.578 16.594l4.641-4.594-4.641-4.594 1.406-1.406 6 6-6 6zM9.422 16.594l-1.406 1.406-6-6 6-6 1.406 1.406-4.641 4.594z"></path>
+          <path d="M48.594 55.313l15.469-15.313-15.469-15.313 4.688-4.688 20 20-20 20zM31.406 55.313l-4.688 4.688-20-20 20-20 4.688 4.688-15.469 15.313z"></path>
         </svg>
         <h2>Code</h2>
         <div>I strive to create code that is maintainable, responsive, and accessible. The web is meant for everyone, and I intend to continue developing around that principle.</div>
@@ -51,6 +51,9 @@ export default {
 </script>
 
 <style lang="css">
+.cool {
+  height: 100rem;
+}
 .timeline-tile {
   text-align: center;
   line-height: 1.5;
@@ -87,9 +90,9 @@ export default {
 }
 
 .about-icon {
-  height: 6rem;
+  height: 5rem;
   fill: #a044ff;
-  width: 6rem;
+  width: 5rem;
 }
 
 @media screen and (min-width: 48rem) {
