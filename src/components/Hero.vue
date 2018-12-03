@@ -46,7 +46,19 @@ export default {
       const y = sketch.floor(sketch.random(this.img.height));
       const pix = this.img.get(x, y);
       sketch.fill(pix, 128);
-      sketch.ellipse(x, y, 10, 10);
+      sketch.ellipse(x, y, 5, 5);
+
+      const x2 = sketch.floor(sketch.random(this.img.width));
+      const y2 = sketch.floor(sketch.random(this.img.height));
+      const pix2 = this.img.get(x2, y2);
+      sketch.fill(pix2, 128);
+      sketch.ellipse(x2, y2, 10, 10);
+
+      const x3 = sketch.floor(sketch.random(this.img.width));
+      const y3 = sketch.floor(sketch.random(this.img.height));
+      const pix3 = this.img.get(x3, y3);
+      sketch.fill(pix3, 128);
+      sketch.ellipse(x3, y3, 15, 15);
     },
   },
 }
