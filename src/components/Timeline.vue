@@ -97,7 +97,7 @@ export default {
     display: initial;
   }
   .about-icon-container {
-    margin: 4rem 0 0.75rem;
+    margin: 4rem 0 1rem;
     flex-direction: row;
   }
 
