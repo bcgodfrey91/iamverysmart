@@ -33,14 +33,27 @@ export default {
     flex-direction: column;
     height: 100%;
     justify-content: center;
-    margin: 2rem 2.5vw 0;
+    margin: 2rem 5vw;
     width: 100%;
+  }
+
+  .hero-tile,
+  .projects-tile {
+    color: #2B303A;
   }
 
   .timeline-tile,
   .contact-tile  {
     background: #2B303A;
     color: #fdfcff;
+  }
+
+  .hero-tile .section-wrapper {
+    margin: 0;
+  }
+
+  .timeline-tile {
+    min-height: 50vh;
   }
 
   .contact-tile {
@@ -61,25 +74,8 @@ export default {
     text-align: center;
   }
 
-  .projects-tile .section-wrapper {
-    margin: 2rem 2.5vw;
-  }
-
-  .hero-tile,
-  .projects-tile {
-    color: #2B303A;
-  }
-
-  .hero-tile .section-wrapper {
-    margin: 0;
-  }
-
   @media screen and (min-width: 48rem) {
     .section-wrapper {
-      margin: 3rem 2.5vw 0;
-    }
-
-    .projects-tile .section-wrapper {
       margin: 3rem 2.5vw;
     }
 

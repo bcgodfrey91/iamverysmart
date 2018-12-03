@@ -54,8 +54,9 @@ export default {
 
 <style lang="css">
   .hero-title {
-    margin: 1rem 0 2rem;
     font-size: 6rem;
+    margin: 1rem 0 2rem;
+    text-align: center;
   }
 
   .p5-wrapper {

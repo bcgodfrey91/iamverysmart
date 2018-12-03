@@ -37,16 +37,15 @@ export default {
   .title-underline {
     height: 0.25rem;
     width: 4.75rem;
-    background: #2B303A;
+    background: #a044ff;
   }
 
   .hero-tile .title-underline {
     display: none;
   }
 
-  .timeline-tile .title-underline,
-  .contact-tile .title-underline {
-    background: #fdfcff;
+  .projects-tile .title-underline {
+    background: #2B303A;
   }
 
 </style>
