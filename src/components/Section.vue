@@ -76,8 +76,11 @@ export default {
 
   @media screen and (min-width: 48rem) {
     .section-wrapper {
-      margin: 3rem 2.5vw;
+      margin: 3rem 5vw;
     }
 
+    .contact-tile .section-wrapper {
+      margin: 3rem 5vw 2rem;
+    }
   }
 </style>
