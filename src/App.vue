@@ -31,7 +31,7 @@ export default {
   .section-title {
     font-family: 'Roboto Slab', serif;
     font-size: 3rem;
-    margin: 0 0 0.5rem;
+    margin: 0 0 0.25rem;
   }
 
   .title-underline {

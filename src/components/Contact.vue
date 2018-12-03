@@ -92,6 +92,6 @@ export default {
   }
 
   .contact-tile .section-title {
-    margin: 1rem 0 0;
+    margin: 1rem 0 0.25rem;
   }
 </style>
