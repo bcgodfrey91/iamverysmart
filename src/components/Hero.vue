@@ -1,5 +1,5 @@
 <template>
-  <app-section :styleClass="{ styleClass }">
+  <app-section :styleclass="styleclass">
     <div class="section-title-wrapper">
       <h1 class="section-title hero-title">Ben Godfrey</h1>
       <div class="title-underline"></div>
@@ -27,7 +27,7 @@ export default {
   },
   data () {
     return {
-      styleClass: 'hero-tile',
+      styleclass: 'hero-tile',
       img: '',
     }
   },

@@ -1,5 +1,5 @@
 <template>
-  <app-section :styleClass="{ styleClass }">
+  <app-section :styleclass="styleclass">
     <div class="section-title-wrapper">
       <h1 class="section-title">Drop Me a Line</h1>
       <div class="title-underline"></div>
@@ -45,7 +45,7 @@ export default {
   },
   data () {
     return {
-      styleClass: 'contact-tile',
+      styleclass: 'contact-tile',
     }
   }
 }

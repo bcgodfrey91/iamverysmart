@@ -10,11 +10,11 @@
 export default {
   name: 'Section',
   props: [
-    'styleClass',
+    'styleclass',
   ],
   data () {
     return {
-      sectionStyle: this.styleClass.styleClass
+      sectionStyle: this.styleclass
     }
   },
 }

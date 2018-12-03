@@ -1,5 +1,5 @@
 <template>
-  <app-section :styleClass="{ styleClass }">
+  <app-section :styleclass="styleclass">
     <div class="section-title-wrapper">
       <h1 class="section-title">Projects</h1>
       <div class="title-underline"></div>
@@ -19,7 +19,7 @@ export default {
   },
   data () {
     return {
-      styleClass: 'projects-tile'
+      styleclass: 'projects-tile'
     }
   },
 }

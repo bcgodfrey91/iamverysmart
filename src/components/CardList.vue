@@ -1,6 +1,6 @@
 <template>
   <div class="card-list">
-    <div class='card' :class="card.styleClass" v-for="card in helpers" :key="card.title">
+    <div class='card' :class="card.styleclass" v-for="card in helpers" :key="card.title">
       <a :href="card.url" target="_blank">
         <card
           :title="card.title"
@@ -23,7 +23,7 @@ export default {
   },
   data () {
     return {
-      styleClass: 'card-list',
+      styleclass: 'card-list',
       helpers,
     }
   },
