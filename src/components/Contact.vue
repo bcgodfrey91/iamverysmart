@@ -1,7 +1,7 @@
 <template>
   <app-section :styleclass="styleclass">
     <div class="section-title-wrapper">
-      <h1 class="section-title">Drop Me a Line</h1>
+      <h1 class="section-title">Get in Touch</h1>
       <div class="title-underline"></div>
     </div>
     <div class="contact-body">Looking to work together on a project, make a new connection, or talk a little college football? Don't hesitate to reach out!</div>
