@@ -191,6 +191,36 @@ export default {
       const pix25 = this.img.get(x25, y25);
       sketch.fill(pix25, 128);
       sketch.ellipse(x25, y25, 17.5, 17.5);
+
+      const x26 = sketch.floor(sketch.random(this.img.width));
+      const y26 = sketch.floor(sketch.random(this.img.height));
+      const pix26 = this.img.get(x26, y26);
+      sketch.fill(pix26, 128);
+      sketch.ellipse(x26, y26, 7.5, 7.5);
+
+      const x27 = sketch.floor(sketch.random(this.img.width));
+      const y27 = sketch.floor(sketch.random(this.img.height));
+      const pix27 = this.img.get(x27, y27);
+      sketch.fill(pix27, 128);
+      sketch.ellipse(x27, y27, 12.5, 12.5);
+
+      const x28 = sketch.floor(sketch.random(this.img.width));
+      const y28 = sketch.floor(sketch.random(this.img.height));
+      const pix28 = this.img.get(x28, y28);
+      sketch.fill(pix28, 128);
+      sketch.ellipse(x28, y28, 7.5, 7.5);
+
+      const x29 = sketch.floor(sketch.random(this.img.width));
+      const y29 = sketch.floor(sketch.random(this.img.height));
+      const pix29 = this.img.get(x29, y29);
+      sketch.fill(pix29, 128);
+      sketch.ellipse(x29, y29, 10.5, 10.5);
+
+      const x30 = sketch.floor(sketch.random(this.img.width));
+      const y30 = sketch.floor(sketch.random(this.img.height));
+      const pix30 = this.img.get(x30, y30);
+      sketch.fill(pix30, 128);
+      sketch.ellipse(x30, y30, 5, 5);
     },
   },
 }

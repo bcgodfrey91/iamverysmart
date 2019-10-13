@@ -4,8 +4,8 @@
       <h1 class="section-title">About</h1>
       <div class="title-underline"></div>
     </div>
-    <div>I'm a software developer located in Austin, Texas.</div>
-    <div>While my primary focus is on all things front end, I enjoy dabbling on the backend as well. <br class="text-break"> I'm constantly chasing the excitement and frustration that comes with tackling new ideas and problems.</div>
+    <div>I'm a software developer located in Dallas, Texas.</div>
+    <div>While my primary focus is on all things front end, I enjoy exploring all areas of the stack. <br class="text-break"> I'm constantly chasing the excitement and frustration that comes with tackling new ideas and problems.</div>
     <div class="about-icon-container">
       <div class="icon-content">
         <svg class="about-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
@@ -13,7 +13,7 @@
           <path d="M40 10l36.719 20v26.719h-6.719v-23.125l-30 16.406-36.719-20zM16.719 43.906l23.281 12.813 23.281-12.813v13.438l-23.281 12.656-23.281-12.656v-13.438z"></path>
         </svg>
         <h2>School</h2>
-        <div>After majoring in psychology at Texas A&M, I appreciate that I'm still able to provide meaningful solutions to people's problems in my career as a software developer.</div>
+        <div>Although I initially majored in psychology, I appreciate that I'm still able to provide meaningful solutions to people's problems in my career as a software developer.</div>
       </div>
       <div class="icon-content">
         <svg class="about-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
@@ -21,7 +21,7 @@
           <path d="M46.719 20v-6.719h-13.438v6.719h13.438zM66.719 20c3.75 0 6.563 2.969 6.563 6.719v36.563c0 3.75-2.813 6.719-6.563 6.719h-53.438c-3.75 0-6.563-2.969-6.563-6.719v-36.563c0-3.75 2.813-6.719 6.563-6.719h13.438v-6.719c0-3.75 2.813-6.563 6.563-6.563h13.438c3.75 0 6.563 2.813 6.563 6.563v6.719h13.438z"></path>
         </svg>
         <h2>Work</h2>
-        <div>In the workplace I serve in a number of roles ranging from developer to Scrum Master. I enjoy the challenge and responsibility that comes with wearing multiple hats.</div>
+        <div>In the workplace, I serve in a number of roles ranging from developer to Scrum Master. I enjoy the challenge and responsibility that comes with wearing multiple hats.</div>
       </div>
       <div class="icon-content">
         <svg class="about-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
@@ -29,7 +29,7 @@
           <path d="M48.594 55.313l15.469-15.313-15.469-15.313 4.688-4.688 20 20-20 20zM31.406 55.313l-4.688 4.688-20-20 20-20 4.688 4.688-15.469 15.313z"></path>
         </svg>
         <h2>Code</h2>
-        <div>I strive to create code that is maintainable, responsive, and accessible. The web is meant for everyone, and I intend to continue developing around that principle.</div>
+        <div>I strive to create code that is maintainable, responsive, and accessible. The web is meant for everyone, and I intend to continue delivering on that principle.</div>
       </div>
     </div>
   </app-section>
