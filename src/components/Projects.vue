@@ -4,6 +4,12 @@
       <h1 class="section-title">Projects</h1>
       <div class="title-underline"></div>
     </div>
+    <div class="working-on">
+      Currently working on:
+      <a v-bind:href="'https://github.com/'+currentProject.name">
+        <span>{{ currentProject.name.split("/").pop() }}</span>
+      </a>
+    </div>
     <card-list></card-list>
   </app-section>
 </template>
@@ -19,11 +25,20 @@ export default {
   },
   data () {
     return {
-      styleclass: 'projects-tile'
+      styleclass: 'projects-tile',
+      currentProject: {}
     }
   },
+  mounted () {
+    fetch('https://api.github.com/users/bcgodfrey91/events')
+      .then(response => response.json())
+      .then(data => this.currentProject = data[0].repo);
+  }
 }
 </script>
 
 <style lang="css">
+  .working-on {
+    margin: 0 0 2rem;
+  }
 </style>
