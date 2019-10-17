@@ -6,7 +6,10 @@
     </div>
     <div class="working-on">
       Currently working on:
-      <a v-bind:href="'https://github.com/'+currentProject.name">
+      <a
+        v-if="dataReady"
+        v-bind:href="'https://github.com/'+currentProject.name"
+      >
         <span>{{ currentProject.name.split("/").pop() }}</span>
       </a>
     </div>
@@ -26,13 +29,17 @@ export default {
   data () {
     return {
       styleclass: 'projects-tile',
-      currentProject: {}
+      currentProject: {},
+      dataReady: false
     }
   },
   mounted () {
     fetch('https://api.github.com/users/bcgodfrey91/events')
       .then(response => response.json())
-      .then(data => this.currentProject = data[0].repo);
+      .then(data => {
+        this.currentProject = data[0].repo;
+        this.dataReady = true;
+      });
   }
 }
 </script>
