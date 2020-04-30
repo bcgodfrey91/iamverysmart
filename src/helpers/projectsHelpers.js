@@ -4,21 +4,21 @@ export default [
     styleclass: 'perpro',
     technologies: 'VuePress',
     title: '💻 Perpro',
-    url: 'https://github.com/bcgodfrey91/perpro'
+    url: 'https://github.com/bgdfry/perpro'
   },
   {
     body: 'A site that fetches and provides a ranking list for shows on Crunchy Roll.',
     styleclass: 'crunchy-ratings',
     technologies: 'React, Node.js, Express, MongoDB, Cheerio',
     title: '💯 Crunchy Ratings',
-    url: 'https://github.com/bcgodfrey91/crunchy-ratings-client'
+    url: 'https://github.com/bgdfry/crunchy-ratings-client'
   },
   {
     body: 'An app that allows a user to create an account and save notes to themself.',
     styleclass: 'napkin-app',
     technologies: 'React, Node.js, Serverless, AWS',
     title: '📝 Napkin App',
-    url: 'https://github.com/bcgodfrey91/napkin-app-api'
+    url: 'https://github.com/bgdfry/napkin-app-api'
   },
   {
     body: 'A desktop audio player application.',
@@ -32,7 +32,7 @@ export default [
     styleclass: 'lights-out',
     technologies: 'jQuery, Mocha, Chai, Object Oriented Programming',
     title: '🚨 Lights Out',
-    url: 'https://github.com/bcgodfrey91/game-time-lights-out'
+    url: 'https://github.com/bgdfry/game-time-lights-out'
   },
   {
     body: 'An npm package that allows users to convert their local audio files to dataURLs for use via Electron.',

@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bcgodfrey91/iamverysmart.git"
+    "url": "git+https://github.com/bgdfry/iamverysmart.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bcgodfrey91/iamverysmart/issues"
+    "url": "https://github.com/bgdfry/iamverysmart/issues"
   },
-  "homepage": "https://github.com/bcgodfrey91/iamverysmart#readme",
+  "homepage": "https://github.com/bgdfry/iamverysmart#readme",
   "dependencies": {
     "p5": "^0.7.2",
     "vue": "^2.5.17",
