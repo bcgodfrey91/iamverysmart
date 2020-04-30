@@ -19,7 +19,6 @@
         </svg>
       </a>
     </div>
-    <div class="email-text">bgdfry@gmail.com</div>
   </app-section>
 </template>
 
